@@ -14,7 +14,9 @@ ROR proxy should be accessed on port 5000. It calls backend ES (localhost:9201).
 # EXAMPLE INTERACTION:
 
 Launch example:
+
 `$ chmod 777 launch.sh`
+
 `$ ./launch.sh`
 
 Try to call  ROR proxy:
