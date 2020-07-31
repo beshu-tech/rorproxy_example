@@ -1,6 +1,6 @@
 # DESCRIPTION:
 
-This is an example which shows how to configure and run ROR proxy which will provied pretty the same functionality as ROR plugin installed with Elasticsearch.
+This is an example which shows how to configure and run ROR proxy which will provide pretty the same functionality as ROR plugin installed with Elasticsearch.
 
 # CONTAINS:
 
