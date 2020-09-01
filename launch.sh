@@ -7,8 +7,9 @@ export ROR_SUPERUSER_SECRET="ror"
 
 java \
 -Dcom.readonlyrest.settings.file.path=proxy/readonlyrest.yml \
+-Dlog4j.configurationFile=proxy/log4j2.properties \
 -Dcom.readonlyrest.proxy.es.host=localhost \
 -Dcom.readonlyrest.proxy.es.port=9201 \
 -Dcom.readonlyrest.proxy.port=5000 \
--jar proxy/readonlyrest-proxy-1.21.0-pre7_es7.6.2.jar
+-jar proxy/readonlyrest-proxy-1.23.0-pre3_es7.8.1.jar
 
