@@ -1,6 +1,6 @@
 # DESCRIPTION:
 
-This is an example which shows how to configure and run ROR proxy which will provied pretty the same functionality as ROR plugin installed with Elasticsearch.
+This is an example which shows how to configure and run ROR proxy which will provide pretty the same functionality as ROR plugin installed with Elasticsearch.
 
 # CONTAINS:
 
@@ -14,7 +14,9 @@ ROR proxy should be accessed on port 5000. It calls backend ES (localhost:9201).
 # EXAMPLE INTERACTION:
 
 Launch example:
+
 `$ chmod 777 launch.sh`
+
 `$ ./launch.sh`
 
 Try to call  ROR proxy:
