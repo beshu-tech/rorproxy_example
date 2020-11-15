@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker run -d -p 9201:9200 -e "discovery.type=single-node" elasticsearch:7.8.0
+docker run --rm -d -p 9201:9200 -e "discovery.type=single-node" elasticsearch:7.9.3
 
 export ROR_SUPERUSER_NAME="ror"
 export ROR_SUPERUSER_SECRET="ror"
@@ -11,5 +11,5 @@ java \
 -Dcom.readonlyrest.proxy.es.host=localhost \
 -Dcom.readonlyrest.proxy.es.port=9201 \
 -Dcom.readonlyrest.proxy.port=5000 \
--jar proxy/readonlyrest-proxy-1.25.0-pre7_es7.8.1.jar
+-jar proxy/readonlyrest-proxy-1.25.0-pre9_es7.9.3.jar
 
