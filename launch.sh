@@ -11,5 +11,5 @@ java \
 -Dcom.readonlyrest.proxy.es.host=localhost \
 -Dcom.readonlyrest.proxy.es.port=9201 \
 -Dcom.readonlyrest.proxy.port=5000 \
--jar proxy/readonlyrest-proxy-1.26.0-pre2_es7.9.3.jar
+-jar proxy/readonlyrest-proxy-1.29.0-pre2_es7.9.3.jar
 
